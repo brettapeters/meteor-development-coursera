@@ -1,1 +1,26 @@
 /* CSS declarations go here */
+
+.clicked {
+  -webkit-filter: grayscale(100%);
+}
+
+body {
+  padding-top: 50px;
+}
+
+.thumbnail > img {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.row{
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
